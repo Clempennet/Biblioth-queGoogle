@@ -1,0 +1,10 @@
+.navbar {
+display: flex  ;
+justify-content: flex-start;  
+}
+
+.image {
+
+    display: flex  ;
+    justify-content: flex-start; 
+}

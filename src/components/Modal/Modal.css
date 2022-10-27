@@ -1,0 +1,52 @@
+.overlay{
+width: 100%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.overlay-inner{
+width: 700px;
+height: auto;
+padding: 1.5rem;
+position: relative;
+box-sizing: border-box;
+overflow: hidden;
+font-size: 1.3rem;
+
+}
+
+.overlay-inner .inner-box {
+
+margin-top: 30px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.overlay-inner .inner-box .img {
+    border: 1px solid black ;
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.overlay-inner .inner-box h3 {
+
+    margin-top: 10px;
+    color:green
+}
+
+.overlay-inner .inner-box h4 {
+    color: blue;
+    
+}
+
+.overlay-inner .inner-box Button {
+outline: none;
+width: 120px;
+
+}

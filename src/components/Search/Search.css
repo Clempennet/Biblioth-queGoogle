@@ -1,0 +1,24 @@
+.search {
+	text-align: center;
+	color: Green;
+	
+}
+.search-header {
+	background-color: #282c34;
+	min-height: 5vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.contenair {
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+	left: 30px;
+	right: 30px;
+}
