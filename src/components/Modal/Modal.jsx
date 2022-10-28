@@ -23,7 +23,7 @@ export const Modal = ({ show,item, textButton1,className }) => {
                     </div>
                     </div>
                     <br></br>
-                    <h4 className="description">{item.description}</h4>
+                    <h4 className="description" dangerouslySetInnerHTML={ { __html: item.description } }/>
                 </div>
 
             </div>
